@@ -13423,6 +13423,8 @@ dev/PHPStan/Extensions/EntityManagerReturnType.php
 PHPStan/Extensions/EntityManagerReturnType.php
 Extensions/EntityManagerReturnType.php
 EntityManagerReturnType.php
+dev/vendor-cleanup.php
+vendor-cleanup.php
 application/Espo/Hooks/Note/WebSocketSubmit.php
 Espo/Hooks/Note/WebSocketSubmit.php
 Hooks/Note/WebSocketSubmit.php
@@ -32529,6 +32531,13 @@ Formula/Functions/NumberGroup/ParseIntType.php
 Functions/NumberGroup/ParseIntType.php
 NumberGroup/ParseIntType.php
 ParseIntType.php
+application/Espo/Core/Formula/Functions/NumberGroup/PowerType.php
+Espo/Core/Formula/Functions/NumberGroup/PowerType.php
+Core/Formula/Functions/NumberGroup/PowerType.php
+Formula/Functions/NumberGroup/PowerType.php
+Functions/NumberGroup/PowerType.php
+NumberGroup/PowerType.php
+PowerType.php
 application/Espo/Core/Formula/Functions/ObjectGroup/GetType.php
 Espo/Core/Formula/Functions/ObjectGroup/GetType.php
 Core/Formula/Functions/ObjectGroup/GetType.php

@@ -3193,6 +3193,10 @@ ghost/i18n/locales/bg/comments.json
 ghost/i18n/locales/bg/portal.json
 ghost/i18n/locales/bg/signup-form.json
 ghost/i18n/locales/bg/ghost.json
+ghost/i18n/locales/mk/comments.json
+ghost/i18n/locales/mk/portal.json
+ghost/i18n/locales/mk/signup-form.json
+ghost/i18n/locales/mk/ghost.json
 ghost/i18n/locales/pl/comments.json
 ghost/i18n/locales/pl/portal.json
 ghost/i18n/locales/pl/signup-form.json
@@ -3435,6 +3439,7 @@ ghost/admin/tests/acceptance/signin-test.js
 ghost/admin/tests/acceptance/members-test.js
 ghost/admin/tests/acceptance/offers-test.js
 ghost/admin/tests/acceptance/authentication-test.js
+ghost/admin/tests/acceptance/onboarding-test.js
 ghost/admin/tests/acceptance/signup-test.js
 ghost/admin/tests/acceptance/error-handling-test.js
 ghost/admin/tests/acceptance/tags-test.js
@@ -3644,6 +3649,7 @@ ghost/admin/public/assets/icons/analytics-tab-clicked-large.svg
 ghost/admin/public/assets/icons/unmute.svg
 ghost/admin/public/assets/icons/email-at.svg
 ghost/admin/public/assets/icons/event-started-subscription.svg
+ghost/admin/public/assets/icons/picture.svg
 ghost/admin/public/assets/icons/megaphone.svg
 ghost/admin/public/assets/icons/module.svg
 ghost/admin/public/assets/icons/gift.svg
@@ -3873,6 +3879,7 @@ ghost/admin/app/services/ajax.js
 ghost/admin/app/services/explore.js
 ghost/admin/app/services/limit.js
 ghost/admin/app/services/billing.js
+ghost/admin/app/services/onboarding.js
 ghost/admin/app/services/utils.js
 ghost/admin/app/modifiers/scroll-into-view.js
 ghost/admin/app/modifiers/movable.js
@@ -3955,6 +3962,7 @@ ghost/admin/app/helpers/activity-feed-fetcher.js
 ghost/admin/app/helpers/feature.js
 ghost/admin/app/helpers/set-has.js
 ghost/admin/app/helpers/integration-icon-style.js
+ghost/admin/app/helpers/onboarding-step-class.js
 ghost/admin/app/helpers/first-name.js
 ghost/admin/app/helpers/post-author-names.js
 ghost/admin/app/helpers/most-recently-updated.js
@@ -3962,6 +3970,7 @@ ghost/admin/app/helpers/humanize-recipient-filter.js
 ghost/admin/app/helpers/members-count-fetcher.js
 ghost/admin/app/helpers/highlighted-text.js
 ghost/admin/app/helpers/noop.js
+ghost/admin/app/helpers/is-onboarding-step-completed.js
 ghost/admin/app/helpers/event-name.js
 ghost/admin/app/helpers/most-relevant-subscription.js
 ghost/admin/app/helpers/parse-history-event.js
@@ -4324,6 +4333,7 @@ ghost/admin/app/components/gh-text-input.js
 ghost/admin/app/components/gh-members-segment-count.js
 ghost/admin/app/components/gh-dropdown.js
 ghost/admin/app/components/liquid-container.js
+ghost/admin/app/components/dashboard/onboarding/step.hbs
 ghost/admin/app/components/dashboard/prototype/control-panel.js
 ghost/admin/app/components/dashboard/prototype/control-panel.hbs
 ghost/admin/app/components/dashboard/charts/engagement.hbs

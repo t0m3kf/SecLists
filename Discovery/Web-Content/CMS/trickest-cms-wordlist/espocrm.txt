@@ -2354,6 +2354,7 @@ html/main.html
 composer.json
 dev/set-config-params.php
 dev/PHPStan/Extensions/EntityManagerReturnType.php
+dev/vendor-cleanup.php
 application/Espo/Hooks/Note/WebSocketSubmit.php
 application/Espo/Hooks/Note/Mentions.php
 application/Espo/Hooks/Note/Notifications.php
@@ -5037,6 +5038,7 @@ application/Espo/Core/Formula/Functions/NumberGroup/RoundType.php
 application/Espo/Core/Formula/Functions/NumberGroup/ParseFloatType.php
 application/Espo/Core/Formula/Functions/NumberGroup/FloorType.php
 application/Espo/Core/Formula/Functions/NumberGroup/ParseIntType.php
+application/Espo/Core/Formula/Functions/NumberGroup/PowerType.php
 application/Espo/Core/Formula/Functions/ObjectGroup/GetType.php
 application/Espo/Core/Formula/Functions/ObjectGroup/CreateType.php
 application/Espo/Core/Formula/Functions/ObjectGroup/SetType.php
